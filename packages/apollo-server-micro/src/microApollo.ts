@@ -51,7 +51,9 @@ export function graphqlMicro(
             req.headers['content-length'] &&
             req.headers['content-length'] !== '0' &&
             typeis.is(contentType, 'application/json') &&
-            (await json(req)))
+            (await json(req, {
+              limit: '10mb'
+            })))
         : url.parse(req.url!, true).query;
 
     try {
