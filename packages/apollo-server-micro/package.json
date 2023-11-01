@@ -1,6 +1,6 @@
 {
   "name": "apollo-server-micro-pluto",
-  "version": "3.0.1-pluto",
+  "version": "3.0.2-pluto",
   "description": "Production-ready Node.js GraphQL server for Micro(for xsky pluto project)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
