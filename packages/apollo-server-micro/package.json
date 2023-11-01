@@ -1,12 +1,12 @@
 {
   "name": "apollo-server-micro-pluto",
-  "version": "3.0.0",
+  "version": "3.0.0-pluto",
   "description": "Production-ready Node.js GraphQL server for Micro(for xsky pluto project)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apollographql/apollo-server",
+    "url": "https://github.com/Acring/apollo-server-pluto",
     "directory": "packages/apollo-server-micro"
   },
   "keywords": [
